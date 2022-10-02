@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 span{
+    color: blue;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+ul li a:hover{
+    color: black;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: brown;
+}
+
+.container1 ul{
+    display: flex;
+}
+.hero{
+    background-image: url(./IMG-20220921-WA0015.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.fem {
+    margin-bottom: 13px;
+    color: #fff;
+    font-size: 50px;
+    background-size: cover;
+
+
+}
+p{
+    color: #b88a8a;
+    font-size: large;
+}
+
+.Lawal {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    /* list-style-image: url(IMG-20220921-WA0015.jpg); */
+    display: flex;
+    /* grid-template-columns: 100px 100px 100px; */
+    justify-content: center;
+    margin-top: 5px;
+
+    
+    
+}
+
+.firm {
+    justify-content: center;
+    padding: 10px;
+    /* border-radius: 40px; */
+    /* background: black; */
+    /* transition: transform 0.3s ease; */
+}
+    
+
+/* .firm::after, .firm::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: black;
+    border-radius: inherit;
+    width: absolute;
+    height: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    /* transition: ; */
+    /* transition: transform (0.3s ease)); 
+}*/
+
+.firm:hover {
+    background: black;
+}
+/* .firm:hover::after{
+    transform: translate(1px, 1px);
+}
+.firm:hover::before{
+    transform: translate(1px, 1px);
+} */
+ 
+.firm p {
+    font-size: 30px;
+    display: flex;
+    /* margin-right: 3px; */
+    /* display: flex; */
+    justify-content: center;
+}
+
+.flrm {
+    padding: 10px;
+}
+.flrm:hover {
+    background: black;
+}
+.flrm p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.flrm a{
+    display: flex;
+    justify-content: center;
+}
+.firm a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fhrm {
+    padding: 10px;
+}
+.fhrm:hover {
+    background: black;
+}
+.fhrm p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center
+}
+.fhrm a{
+    display: flex;
+    justify-content: center;
+}
+.flrm:hover{
+    background: black; 
+ } 
